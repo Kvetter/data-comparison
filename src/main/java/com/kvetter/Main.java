@@ -21,7 +21,7 @@ public class Main {
             ne.getDepthOne((String) name, neo4jMap); // Fast
             ne.getDepthTwo((String) name, neo4jMap); // Fast
             ne.getDepthThree((String) name, neo4jMap); // Around 10 sec
-            ne.getDepthFour((String) name, neo4jMap); // Should take around 30 sec - avg and median not implemented
+            ne.getDepthFour((String) name, neo4jMap); // Should take around 30 sec
             //ne.getDepthFive((String) name); //// DON'T RUN THIS, TAKES TOO LONG - avg and median not implemented
 
 
